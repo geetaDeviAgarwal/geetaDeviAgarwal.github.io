@@ -1,12 +1,25 @@
 /* stylelint-disable selector-list-comma-newline-after */
 @font-face {
     font-family: '';
-    src: url('Marcellus-Regular.ttf');
+    src: url('../Marcellus-Regular.ttf');
 }
 
 * {
     font-family: 'marcellus', 'optima', 'palatino', 'sans-serif';
 }
+
+@font-face {
+  font-family: 'tiro';
+  src: url('../TiroDevanagariHindi-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+:lang(hi) {
+  font-family: 'tiro', sans-serif !important;
+}
+
+
 
 
 
